@@ -36,8 +36,8 @@ This repository contains my D2L learning notes directly at the repo root. The ma
 
 ## Walkthrough Guide
 
-- `5.Perceptron Walkthrough.md`: Provides a step-by-step English explanation of the perceptron and multilayer perceptron notebook. It focuses on intuition, formulas, and how the from-scratch code maps to PyTorch layers.
-- `6.Models Training Walkthrough.md`: Provides a step-by-step English explanation of model training, overfitting, weight decay, and dropout. It is a readable companion to the notebook rather than executable code.
+- `5.Perceptron Walkthrough.md`: Provides a step-by-step explanation of the perceptron and multilayer perceptron notebook. It focuses on intuition, formulas, and how the from-scratch code maps to PyTorch layers.
+- `6.Models Training Walkthrough.md`: Provides a step-by-step explanation of model training, overfitting, weight decay, and dropout. It is a readable companion to the notebook rather than executable code.
 
 ## Learning Focus
 
