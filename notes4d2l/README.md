@@ -1,26 +1,23 @@
 # D2L Learning Notes
 
-This repository is organized around `notes4d2l/` as the main project directory. All D2L learning notes, walkthroughs, source-style notebook work, and future experiments should live under that folder.
+This directory is the main project root for the D2L learning notes. All notebooks, walkthroughs, and future experiments for this study track should live here.
 
-## Repository Structure
+## Structure
 
 ```text
-.
-├── notes4d2l/
-│   └── Notes/
-│       ├── 1.Data Operation.ipynb
-│       ├── 2.Linear Algebra.ipynb
-│       ├── 3.Linear Regression.ipynb
-│       ├── 4.Softmax Regression.ipynb
-│       ├── 5.Perceptron.ipynb
-│       ├── 6.Models Training.ipynb
-│       └── Step by Step Walkthrough/
-│           ├── 5.Perceptron Walkthrough.md
-│           └── 6.Models Training Walkthrough.md
+notes4d2l/
+├── Notes/
+│   ├── 1.Data Operation.ipynb
+│   ├── 2.Linear Algebra.ipynb
+│   ├── 3.Linear Regression.ipynb
+│   ├── 4.Softmax Regression.ipynb
+│   ├── 5.Perceptron.ipynb
+│   ├── 6.Models Training.ipynb
+│   └── Step by Step Walkthrough/
+│       ├── 5.Perceptron Walkthrough.md
+│       └── 6.Models Training Walkthrough.md
 └── README.md
 ```
-
-`notes4d2l/Notes/` contains the executable study notebooks. `notes4d2l/Notes/Step by Step Walkthrough/` contains English Markdown walkthroughs that explain selected notebooks in a slower, more readable format.
 
 ## Notebook Guide
 
@@ -35,23 +32,3 @@ This repository is organized around `notes4d2l/` as the main project directory. 
 
 - `5.Perceptron Walkthrough.md`: Provides a step-by-step English explanation of the perceptron and multilayer perceptron notebook. It focuses on intuition, formulas, and how the from-scratch code maps to PyTorch layers.
 - `6.Models Training Walkthrough.md`: Provides a step-by-step English explanation of model training, overfitting, weight decay, and dropout. It is a readable companion to the notebook rather than executable code.
-
-## Learning Focus
-
-- PyTorch tensor operations
-- Linear algebra for deep learning
-- Linear regression and softmax regression
-- Perceptrons and multilayer perceptrons
-- Model selection, regularization, and generalization
-- From-scratch implementations compared with concise PyTorch APIs
-
-## Status
-
-This repository is a work in progress. I will keep adding notes, code, walkthroughs, and experiments under `notes4d2l/`.
-
-## References
-
-- D2L official website: https://d2l.ai/
-- D2L Chinese version: https://zh.d2l.ai/
-- D2L GitHub repository: https://github.com/d2l-ai/d2l-en
-- D2L Chinese GitHub repository: https://github.com/d2l-ai/d2l-zh
