@@ -1,26 +1,28 @@
 # D2L Learning Notes
 
-This repository is organized around `notes4d2l/` as the main project directory. All D2L learning notes, walkthroughs, source-style notebook work, and future experiments should live under that folder.
+This repository contains my D2L learning notes directly at the repo root. The main study notebooks live in `Notes/`, and selected notebooks have English step-by-step walkthroughs in `Notes/Step by Step Walkthrough/`.
 
 ## Repository Structure
 
 ```text
 .
-├── notes4d2l/
-│   └── Notes/
-│       ├── 1.Data Operation.ipynb
-│       ├── 2.Linear Algebra.ipynb
-│       ├── 3.Linear Regression.ipynb
-│       ├── 4.Softmax Regression.ipynb
-│       ├── 5.Perceptron.ipynb
-│       ├── 6.Models Training.ipynb
-│       └── Step by Step Walkthrough/
-│           ├── 5.Perceptron Walkthrough.md
-│           └── 6.Models Training Walkthrough.md
+├── Notes/
+│   ├── 1.Data Operation.ipynb
+│   ├── 2.Linear Algebra.ipynb
+│   ├── 3.Linear Regression.ipynb
+│   ├── 4.Softmax Regression.ipynb
+│   ├── 5.Perceptron.ipynb
+│   ├── 6.Models Training.ipynb
+│   ├── 7.Neural Network.ipynb
+│   └── Step by Step Walkthrough/
+│       ├── 5.Perceptron Walkthrough.md
+│       └── 6.Models Training Walkthrough.md
+├── data/
+├── d2l/
 └── README.md
 ```
 
-`notes4d2l/Notes/` contains the executable study notebooks. `notes4d2l/Notes/Step by Step Walkthrough/` contains English Markdown walkthroughs that explain selected notebooks in a slower, more readable format.
+`Notes/` contains the executable study notebooks. `Notes/Step by Step Walkthrough/` contains English Markdown walkthroughs that explain selected notebooks in a slower, more readable format. `data/` and `d2l/` are local supporting materials and are ignored by Git by default.
 
 ## Notebook Guide
 
@@ -30,6 +32,7 @@ This repository is organized around `notes4d2l/` as the main project directory. 
 - `4.Softmax Regression.ipynb`: Introduces multi-class classification, logits, softmax, cross-entropy loss, and Fashion-MNIST classification. It extends linear models from predicting numbers to predicting classes.
 - `5.Perceptron.ipynb`: Moves from the perceptron to multilayer perceptrons. It introduces hidden layers, activation functions, and both from-scratch and PyTorch MLP implementations.
 - `6.Models Training.ipynb`: Explains model selection, underfitting, overfitting, weight decay, and dropout. It uses polynomial regression and Fashion-MNIST examples to show how regularization affects generalization.
+- `7.Neural Network.ipynb`: Reserved for the next neural network notes. It is currently a placeholder for future material.
 
 ## Walkthrough Guide
 
@@ -47,7 +50,7 @@ This repository is organized around `notes4d2l/` as the main project directory. 
 
 ## Status
 
-This repository is a work in progress. I will keep adding notes, code, walkthroughs, and experiments under `notes4d2l/`.
+This repository is a work in progress. I will keep adding notes, code, walkthroughs, and experiments as I move through the course.
 
 ## References
 
